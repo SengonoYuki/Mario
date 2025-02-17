@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario</title>
+    <style>
+        .bg {
+            background-image: url("image/phone.jpg");
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            padding: 20px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            background-image: url("image/phone.jpg");
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .character {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .character img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .character h2 {
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: Impact, sans-serif;
+            letter-spacing: 3px;
+            background: linear-gradient(90deg, #fff, #ccc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .character h3 {
+            font-size: 18px;
+            font-family: 'Arial', sans-serif;
+            color: #ddddddb4;
+            background: rgba(0, 0, 0, 0.116);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <h1><b>Mario</b></h1>
+        <br>
+        <table border="0" width="100%" height="400">
+            <tr>
+                <td width="40%">
+                    <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/MfmciZdlPJ0"
+                            title="YouTube video"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen>
+                    </iframe>
+                </td>
+                <td>
+                    <p style="font-size: 35px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        Гей, друже! Готовий до пригод? Стрибай у світ Маріо, де на тебе чекають шалені стрибки, захопливі рівні та битви з підступним Боузером! Збирай монети, шукай секрети та рятуй принцесу! Не барися – гриби сили вже чекають на тебе!
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <h1>Персонажі</h1>
+    <div class="container">
+        <div class="character">
+            <h2>Mario</h2>
+            <img src="image/mario.png" alt="Mario">
+            <h3>Маріо – сміливий герой, що долає перешкоди на шляху до мети.</h3>
+        </div>
+        <div class="character">
+            <h2>Bowser</h2>
+            <img src="image/Bowser2.png" alt="Bowser">
+            <h3>Боузер – могутній правитель, який кидає виклик героям.</h3>
+        </div>
+        <div class="character">
+            <h2>Luigi</h2>
+            <img src="image/Luigi.png" alt="Luigi">
+            <h3>Луіджі - спритний шукач пригод із власним стилем руху.</h3>
+        </div>
+        <div class="character">
+            <h2>goomba</h2>
+            <img src="image/goomba1.png" alt="Goomba">
+            <h3>Гумба – маленька перешкода, яку легко подолати.</h3>
+        </div>
+    </div>
+</body>
+</html>
